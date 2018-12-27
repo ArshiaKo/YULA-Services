@@ -11,6 +11,20 @@ body{
 label, input, button, select, textarea{
 	font-size: 12px;
 }
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #367A80;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+	font-size: 100pt;
+	font-weight: bold;
+	color: yellow;
+}
+
 ul li a,a{
 	color:#333;
 	outline:0; 
