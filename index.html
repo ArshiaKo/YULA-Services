@@ -2,6 +2,11 @@
 <html lang="en">
     
 <script>
+    function passWord() 
+    {
+        window.open('https://docs.google.com/forms/d/e/1FAIpQLSeCYFTPdTdNu0q3lgxkd8ukdMx_rPpKPjoAspffsovCRnFirQ/viewform?usp=sf_link');
+    }
+    
 function passWord() {
 var testV = 1;
 var pass1 = prompt('Please Enter Your Password',' ');
@@ -49,9 +54,11 @@ return " ";
       <div class="container d-flex h-100 align-items-center">
         <div class="mx-auto text-center">
           <h1 class="mx-auto my-0 text-uppercase">YULA Services</h1>
-          <h2 class="text-white-50 mx-auto mt-2 mb-5">Please enter your student password to enter or submit documents.</h2>
+          <h2 class="text-white-50 mx-auto mt-2 mb-5">Please enter your student password to enter</h2>
             <form>
             <input type="button" value="CLICK HERE" onClick="passWord()"  class="btn btn-primary" >
+                <h2 class="text-white-50 mx-auto mt-2 mb-5">or click here to submit documents.</h2>
+                <input type="button" value="CLICK HERE" onClick="redirect()"  class="btn btn-primary" >
             </form>
         </div>
       </div>
