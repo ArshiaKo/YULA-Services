@@ -2,7 +2,13 @@
 <html lang="en" class="no-js">
     
     <script>
-    function redirect() 
+    
+        function reviewdirect() 
+    {
+        window.open('https://docs.google.com/forms/d/e/1FAIpQLSd4yo3bqp44_nqfqbnsnp_ClxJmPsEiGcarT9fzz5wyx4570w/viewform?usp=sf_link');
+    }
+        
+        function redirect() 
     {
         window.open('https://docs.google.com/forms/d/e/1FAIpQLSeCYFTPdTdNu0q3lgxkd8ukdMx_rPpKPjoAspffsovCRnFirQ/viewform?usp=sf_link');
     }
@@ -62,15 +68,24 @@ return " ";
 	                        <h1 class="hero-title mt-0">Homework Services</h1>
 	                        <p class="hero-paragraph">Welcome to HOMEWORKSERVICES.TK</p>
 	                        <div class="hero-cta">
-								<a class="button button-primary" onClick="passWord()" href="#">Go To Website</a>
+								<p>
+                                <a class="button button-primary" onClick="passWord()" href="#">Go To Website</a>
+                                    <br/>
+                                    <br/>
                                 <a class="button button-primary" onClick="redirect()" href="#">Submit Documents Here</a>
+                                    <br/>
+                                    <br/>
+                                 <a class="button button-primary" onClick="reviewdirect()" href="#">Place a Review</a>
+                                </p>
 								<div class="lights-toggle">
-									
+				                
                                     
 									
 								</div>
+                                
 							</div>
 						</div>
+                        
 						<div class="hero-media">
 							<div class="header-illustration">
 								<img class="header-illustration-image asset-light" src="dist/images/header-illustration-light.svg" alt="Header illustration">
@@ -88,7 +103,9 @@ return " ";
                     </div>
                 </div>
             </section>
+            
         <center>
+  
             <input id="lights-toggle" type="checkbox" name="lights-toggle" class="switch" checked="checked">
             <label for="lights-toggle" class="text-xs"><span>Turn me <span class="label-text">dark</span></span></label>
 </center>
